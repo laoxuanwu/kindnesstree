@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="fa" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>درخت مهربانی</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+
+<body>
+
+    <main>
+
+        <h1>درخت مهربانی 🌳</h1>
+
+        <div class="tree-container">
+
+            <img
+                src="{{ url_for('static', filename='tree.png') }}"
+                class="tree-image"
+                alt="درخت مهربانی"
+            >
+
+            <img
+                src="{{ url_for('static', filename='leaf.png') }}"
+                class="test-leaf"
+                alt="برگ"
+            >
+
+        </div>
+
+    </main>
+
+
+    <script
+        src="{{ url_for('static', filename='script.js') }}">
+    </script>
+
+</body>
+
+</html>
